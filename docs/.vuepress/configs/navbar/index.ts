@@ -10,21 +10,26 @@ export const navbar: NavbarConfig = [
         children: [
             {
                 text: 'React',
-                children: ['/react/2测试的.md'],
+                children: [
+                    '/posts/react/2测试的.md'
+                ],
             },
             {
                 text: 'Vue',
                 children: [
-                    '/vue/README.md',
+                    '/posts/vue/README.md',
                 ],
             },
             {
                 text: '网络相关',
-                children: ['/network/1测试的.md'],
+                children: [
+                    '/posts/network/1测试的.md'
+                ],
             },
             {
                 text: '好的实践',
-                children: ['/practice/全局Loading组件设计.md'],
+                children: [
+                    '/posts/practice/全局Loading组件设计.md'],
             },
         ],
     }

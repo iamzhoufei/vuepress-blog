@@ -1,69 +1,71 @@
 import type { SidebarConfig } from '@vuepress/theme-default'
 
 export const sidebar: SidebarConfig = {
-    '/': [
+    '/posts/': [
         {
             text: 'React',
             collapsible: true,
-            children: ['/react/2测试的.md'],
+            children: ['/posts/react/2测试的.md'],
         },
         {
             text: 'Vue',
             collapsible: true,
-            children: ['/vue/测试的.md'],
+            children: ['/posts/vue/测试的.md'],
         },
         {
             text: 'Vim',
             collapsible: true,
-            children: ['/vim/2测试的.md'],
+            children: ['/posts/vim/2测试的.md'],
         },
         {
             text: '网络相关',
             collapsible: true,
-            children: ['/network/测试的.md'],
+            children: ['/posts/network/测试的.md'],
         },
         {
             text: '好的实践',
             collapsible: true,
-            children: ['/practice/1测试的.md'],
+            children: ['/posts/practice/1测试的.md'],
         },
     ],
-    '/react/': [
+    '/posts/react/': [
         {
             text: 'React',
             collapsible: true,
-            children: ['/react/2测试的.md'],
+            children: [
+                '/posts/react/2测试的.md'
+            ],
         },
     ],
-    '/vue/': [
+    '/posts/vue/': [
         {
             text: 'Vue',
             collapsible: true,
             children: [
-                '/vue/README.md',
-                '/vue/测试的.md'
+                '/posts/vue/README.md',
+                '/posts/vue/测试的.md'
             ],
         },
     ],
-    '/vim/': [
+    '/posts/vim/': [
         {
             text: 'Vim',
             collapsible: true,
-            children: ['/practice/全局Loading组件设计.md'],
+            children: ['/posts/practice/全局Loading组件设计.md'],
         },
     ],
-    '/network/': [
+    '/posts/network/': [
         {
             text: '网络相关',
             collapsible: true,
-            children: ['/network/1测试的.md'],
+            children: ['/posts/network/1测试的.md'],
         },
     ],
-    '/practice/': [
+    '/posts/practice/': [
         {
             text: '好的实践',
             collapsible: true,
-            children: ['/practice/全局Loading组件设计.md'],
+            children: ['/posts/practice/全局Loading组件设计.md'],
         },
     ]
 }

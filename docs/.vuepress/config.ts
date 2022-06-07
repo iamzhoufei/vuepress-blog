@@ -10,8 +10,8 @@ export default defineUserConfig({
     title: 'EPIPHANY',
     description: '合抱之木，始于毫末。',
     theme: defaultTheme({
-        repo: 'vuepress/vuepress-next',
-        docsDir: 'docs',
+        repo: 'iamzhoufei/vuepress-blog',
+        docsDir: 'docs/posts',
         themePlugins: {
             // only enable git plugin in production mode
             git: isProd,
