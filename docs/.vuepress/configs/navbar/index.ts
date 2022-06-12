@@ -9,9 +9,19 @@ export const navbar: NavbarConfig = [
         text: '文档合集',
         children: [
             {
+                text: 'CSS',
+                children: [
+                    '/posts/css/README.md'],
+            },
+            {
+                text: 'JavaScript',
+                children: [
+                    '/posts/javascript/README.md'],
+            },
+            {
                 text: 'React',
                 children: [
-                    '/posts/react/2测试的.md'
+                    '/posts/react/README.md'
                 ],
             },
             {
@@ -23,13 +33,19 @@ export const navbar: NavbarConfig = [
             {
                 text: '网络相关',
                 children: [
-                    '/posts/network/1测试的.md'
+                    '/posts/network/README.md'
+                ],
+            },
+             {
+                text: 'Vim',
+                children: [
+                    '/posts/vim/README.md'
                 ],
             },
             {
                 text: '好的实践',
                 children: [
-                    '/posts/practice/全局Loading组件设计.md'],
+                    '/posts/practice/README.md'],
             },
         ],
     }

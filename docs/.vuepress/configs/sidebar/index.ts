@@ -3,29 +3,62 @@ import type { SidebarConfig } from '@vuepress/theme-default'
 export const sidebar: SidebarConfig = {
     '/posts/': [
         {
+            text: 'CSS',
+            collapsible: true,
+            children: ['/posts/css/README.md'],
+        },
+        {
+            text: 'JavaScript',
+            collapsible: true,
+            children: ['/posts/javascript/README.md'],
+        },
+        {
             text: 'React',
             collapsible: true,
-            children: ['/posts/react/2测试的.md'],
+            children: ['/posts/react/README.md'],
         },
         {
             text: 'Vue',
             collapsible: true,
-            children: ['/posts/vue/测试的.md'],
+            children: ['/posts/vue/README.md'],
         },
         {
             text: 'Vim',
             collapsible: true,
-            children: ['/posts/vim/2测试的.md'],
+            children: ['/posts/vim/README.md'],
         },
         {
             text: '网络相关',
             collapsible: true,
-            children: ['/posts/network/测试的.md'],
+            children: ['/posts/network/README.md'],
         },
         {
             text: '好的实践',
             collapsible: true,
-            children: ['/posts/practice/1测试的.md'],
+            children: ['/posts/practice/README.md'],
+        },
+    ],
+    '/posts/css/': [
+        {
+            text: 'CSS',
+            collapsible: true,
+            children: [
+                '/posts/css/README.md',
+                '/posts/css/对盒模型的理解.md',
+                '/posts/css/水平垂直居中的实现方式.md',
+                '/posts/css/常见的CSS单位.md'
+            ],
+        },
+    ],
+    '/posts/javascript/': [
+        {
+            text: 'JavaScript',
+            collapsible: true,
+            children: [
+                '/posts/javascript/README.md',
+                '/posts/javascript/数据类型.md',
+                '/posts/javascript/事件循环.md'
+            ],
         },
     ],
     '/posts/react/': [
@@ -33,7 +66,8 @@ export const sidebar: SidebarConfig = {
             text: 'React',
             collapsible: true,
             children: [
-                '/posts/react/2测试的.md'
+                '/posts/react/README.md',
+                '/posts/react/框架对比.md'
             ],
         },
     ],
@@ -43,7 +77,9 @@ export const sidebar: SidebarConfig = {
             collapsible: true,
             children: [
                 '/posts/vue/README.md',
-                '/posts/vue/测试的.md'
+                '/posts/vue/API应用.md',
+                '/posts/vue/原理源码.md',
+                '/posts/vue/综合实践.md'
             ],
         },
     ],
@@ -51,21 +87,27 @@ export const sidebar: SidebarConfig = {
         {
             text: 'Vim',
             collapsible: true,
-            children: ['/posts/practice/全局Loading组件设计.md'],
+            children: [
+                '/posts/vim/README.md',
+            ],
         },
     ],
     '/posts/network/': [
         {
             text: '网络相关',
             collapsible: true,
-            children: ['/posts/network/1测试的.md'],
+            children: [
+                '/posts/practice/README.md',
+            ],
         },
     ],
     '/posts/practice/': [
         {
             text: '好的实践',
             collapsible: true,
-            children: ['/posts/practice/全局Loading组件设计.md'],
+            children: [
+                '/posts/practice/README.md',
+            ],
         },
     ]
 }
