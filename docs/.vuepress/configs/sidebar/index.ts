@@ -89,6 +89,11 @@ export const sidebar: SidebarConfig = {
             collapsible: true,
             children: [
                 '/posts/vim/README.md',
+                '/posts/vim/练习第一天.md',
+                '/posts/vim/练习第二天.md',
+                '/posts/vim/练习第三天.md',
+                '/posts/vim/练习第四天.md',
+                '/posts/vim/练习第五天.md',
             ],
         },
     ],
@@ -97,7 +102,10 @@ export const sidebar: SidebarConfig = {
             text: '网络相关',
             collapsible: true,
             children: [
-                '/posts/practice/README.md',
+                '/posts/network/README.md',
+                '/posts/network/输入URL到页面展示的过程.md',
+                '/posts/network/TCP连接的三次握手.md',
+                '/posts/network/TCP连接的四次挥手.md',
             ],
         },
     ],
