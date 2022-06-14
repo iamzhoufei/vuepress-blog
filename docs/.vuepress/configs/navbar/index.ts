@@ -9,6 +9,12 @@ export const navbar: NavbarConfig = [
         text: '文档合集',
         children: [
             {
+                text: '浏览器相关',
+                children: [
+                    '/posts/broswer/README.md',
+                ],
+            },
+            {
                 text: 'CSS',
                 children: [
                     '/posts/css/README.md'],
