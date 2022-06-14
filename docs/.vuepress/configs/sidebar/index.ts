@@ -67,7 +67,8 @@ export const sidebar: SidebarConfig = {
             collapsible: true,
             children: [
                 '/posts/react/README.md',
-                '/posts/react/框架对比.md'
+                '/posts/react/框架对比.md',
+                '/posts/react/hooks.md'
             ],
         },
     ],
@@ -103,7 +104,7 @@ export const sidebar: SidebarConfig = {
             collapsible: true,
             children: [
                 '/posts/network/README.md',
-                '/posts/network/输入URL到页面展示的过程.md',
+                '/posts/network/HTTP协议.md',
                 '/posts/network/TCP连接的三次握手.md',
                 '/posts/network/TCP连接的四次挥手.md',
             ],
