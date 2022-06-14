@@ -1,5 +1,5 @@
 ---
-title: TCP连接中的三次握手
+title: TCP连接的三次握手
 ---
 ## client-server
 
