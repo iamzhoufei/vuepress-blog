@@ -51,6 +51,7 @@ export const sidebar: SidebarConfig = {
                 '/posts/broswer/README.md',
                 '/posts/broswer/本地存储方案对比.md',
                 '/posts/broswer/垃圾回收机制与内存泄漏.md',
+                '/posts/broswer/JSBridge实现方案.md',
             ],
         },
     ],
